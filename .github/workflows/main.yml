@@ -1,4 +1,4 @@
-name: Release ResourcePack
+name: Release DataPack
 on:
   push:
     tags:
@@ -20,7 +20,7 @@ jobs:
           python-version: "3.10"
           architecture: "x64"
 
-      - name: Build ResourcePack
+      - name: Build DataPack
         run: |
           sha1=$(python3 zip.py)
           echo "sha1: $sha1" | tee -a .github/ReleaseBody.txt
@@ -29,7 +29,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: .github/ReleaseBody.txt
-          files: ResourcePack.zip
+          files: DataPack.zip
 
 permissions:
   contents: write
