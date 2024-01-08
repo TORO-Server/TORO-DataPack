@@ -1,6 +1,6 @@
-# TORO-DataPack
+# TOROArmorTrims-DataPack
 
-TORO サーバーのデータパック
+TORO サーバーなアーマートリムを追加するデータパック
 
 ## データパックの zip ファイルの自動生成について
 
