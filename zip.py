@@ -4,7 +4,7 @@ import hashlib
 
 # -----設定部分-----start
 
-ZIP_NAME = 'DataPack.zip'
+ZIP_NAME = 'TOROArmorTrims-DataPack.zip'
 ALLOW_FILE = ["pack.mcmeta", "pack.png", "LICENSE"]
 ALLOW_DIR = ["data"]
 
